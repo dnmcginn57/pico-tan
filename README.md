@@ -1,4 +1,4 @@
-# pico-tan
+# Pico-tan
 
 
 ### Pico-tan will be able to:

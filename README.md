@@ -1,5 +1,5 @@
 # pico-tan
-
+### David McGinn & Tres Brennan
 
 ### Pico-tan will be able to:
 1. run from the command line anywhere on the system with a command like `pico <command>`

@@ -6,8 +6,7 @@ the entry point, this parses command line input and provides some basic commands
 import sys, os
 from random import shuffle
 
-
-from scraping import *
+from scraping import urban_dict
 
 #import PIL
 #import requests
@@ -48,8 +47,6 @@ def process_argv():
     function processes argv
     returns: tuple (command, [arguments])
     """
-    if(sys.argv[1] is None):
-        return ("help","")
     if(sys.argv[1] in valid_commands):
         #check to make sure the right number of arguments were entered
         if(len(sys.argv) == 2 + valid_commands[sys.argv[1]]):
